@@ -11,6 +11,7 @@ class Solution:
         resu=self.ss(A,B,1,A)
         return resu
 
+    [].reverse()
     #将 乘法切割成加法
     #99*100
     def ss(self,a,b,base,init_a):#b代表剩余未加点   base 代表当前这个数是几倍的基数
